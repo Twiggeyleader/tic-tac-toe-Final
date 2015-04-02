@@ -1,0 +1,28 @@
+body {
+  background-image: url(http://fc06.deviantart.net/fs70/f/2013/284/8/3/zelda_wallpaper_mountain_full_hd_by_bryansonata-d6q3v8z.jpg);
+   background-size: 1200px 700px;
+    background-repeat: no-repeat;
+    padding-top: 40px;
+}
+
+
+.container {
+    background:blue;
+    width:310px;
+    height:310px;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.hole {
+    margin: 1px;
+    background: yellow;
+    width: 98px;
+    height: 100px;
+    display: inline-block;
+
+}
+
+.xturn {
+    background: red;
+}

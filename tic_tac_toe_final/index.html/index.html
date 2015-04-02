@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tic Tac Toe</title>
+	<link rel="stylesheet" type="text/css" href="../css/normalize.css">
+<link rel="stylesheet" type="text/css" href="../css/styles.css">
+<script type="text/javascript" src="../js/angular.js"></script>
+<script type="text/javascript" src="../js/app.js"></script>
+<script type="text/javascript" src="../js/controller.js"></script>
+</head>
+<body ng-app="mainApp">
+	<div>
+		<!-- Angular link test -->{{2+2}}
+		<div ng-controller="MainController as game" class="container ">
+<!-- 		for every object that I have in gameBoard make a div. reference it with the alias cell
+ -->		    <div ng-repeat="cell in game.gameBoard track by $index"   ng-click="game.theory( $index )" ng-class="{hole: true, xturn: cell.isPlayed}";></div>
+		   
+
+	</div>
+		</div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
