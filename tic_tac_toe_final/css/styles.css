@@ -26,3 +26,11 @@ body {
 .xturn {
     background: red;
 }
+
+.circle {
+    background: purple;
+}
+#playerScore1{
+    font-size: 30px;
+    color: yellow;
+}
